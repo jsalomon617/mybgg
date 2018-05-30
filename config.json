@@ -4,14 +4,14 @@
         "title": ""
     },
     "boardgamegeek": {
-        "user_name": "YOUR_BGG_USERNAME",
+        "user_name": "jsalomon617",
         "extra_params": {
             "own": 1
         }
     },
     "algolia": {
-        "app_id": "YOUR_APP_ID",
-        "api_key_search_only": "YOUR_PUBLIC_API_KEY",
-        "index_name": "YOUR_INDEX_NAME"
+        "app_id": "GZF6FJPT79",
+        "api_key_search_only": "fec948c8932ba753d1731d60225f1b3e",
+        "index_name": "jsalomon_games"
     }
 }
