@@ -117,6 +117,10 @@ class BGGClient:
         def numplayers_to_result(_, results):
             result = {result["value"].lower().replace(" ", "_"): int(result["numvotes"]) for result in results}
 
+            # TODO remove after merging in fix
+            if len(result) == 0:
+                return "not_recommended"
+
             is_recommended = result['best'] + result['recommended'] > result['not_recommended']
             if not is_recommended:
                 return "not_recommended"
