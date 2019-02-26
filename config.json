@@ -12,7 +12,6 @@
     "algolia": {
         "app_id": "GZF6FJPT79",
         "api_key_search_only": "fec948c8932ba753d1731d60225f1b3e",
-        "index_name": "jsalomon_games",
-        "hits_per_page": 24
+        "index_name": "jsalomon_games"
     }
 }
